@@ -23,7 +23,7 @@
 
 
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=geeksarhul&show_icons=true&locale=en" alt="geeksarhul" /></p>
+
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=geeksarhul&" alt="geeksarhul" /></p>
 
