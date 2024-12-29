@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { PageHeading, Project } from '../components'
 import projectList from './projectsList'
 function Projects() {
+  useEffect(()=>{
+      document.title = "Projects | Geeksrahul";
+    },[])
   return (
     <div className='bg-gray-950 pr-2'>
           <PageHeading text="Projects" className="text-3xl" />

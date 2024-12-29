@@ -1,13 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { PageHeading, SkillList } from '../components'
 import { frontend, backend, databases, tools, programming} from './skill_list';
 
 function Skills() {
+  useEffect(()=>{
+      document.title = "Skills | Geeksrahul";
+    },[])
   return (
     <div className='text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl'>
         <PageHeading text="Skills"/>
         <div className="flex flex-col gap-3 h-full pt-5">
-          <p className='text-gray-100'>
+          <p className='text-gray-100 text-lg'>
             Here’s a glimpse of my technical expertise, from building sleek user interfaces to creating robust backend systems. These skills reflect my dedication to delivering efficient, creative,   and impactful solutions as a web developer.
           </p>
           <SkillList title="Programming" skillArray={programming}/>

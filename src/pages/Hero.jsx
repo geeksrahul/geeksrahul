@@ -8,8 +8,9 @@ const MyComponent = () => {
 
   useEffect(() => {
     setIsMounted(true); // Trigger animation on mount
-  }, []);
+    document.title = "Geeksrahul";
 
+  }, []);
   return (
     <div className="bg-gradient-to-b from-gray-800 to-gray-900 h-screen flex justify-center items-center flex-col gap-7">
       {/* Animated HeroImage */}
