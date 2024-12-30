@@ -21,9 +21,8 @@ function Contact() {
   },[])
 
   return (
-<div className="h-[100%]">
-  <PageHeading text="Contact" />
-  <div className="flex justify-center flex-col mt-10 gap-5 pr-5 pb-5">
+<div className="min-h-[100vh] flex justify-center items-center py-7 lg:pl-10">
+  <div className="flex justify-center flex-col gap-5 pr-5 ">
     <h2 className='text-3xl font-medium'>Have a question or want to collaborate ? Let’s <span className='text-yellow-300'> connect ! </span> </h2>
     <p className='text-lg'>
     Whether you have a question, an opportunity, or just want to say hello, this is the place to connect. Feel free to reach out to me on any of the platforms listed below. I’m always open to conversations, opportunities, and collaborations. I’ll do my best to respond promptly!

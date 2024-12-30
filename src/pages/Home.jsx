@@ -7,9 +7,7 @@ function Home() {
       document.title = "Home | Geeksrahul";
     },[])
   return (
-    <div className=''>
-    <PageHeading text="Home" alt="" />
-    <div className='bg-gray-950 h-screen flex justify-center items-center p-5 '>
+    <div className='bg-gray-950 h-[100vh] flex justify-center items-center p-5'>
       <div className="w-full h-full flex flex-col items-center justify-center gap-3">
           <img 
             src={coder} 
@@ -22,23 +20,22 @@ function Home() {
           </h2>
           <div className="cta p-2 flex flex-col sm:flex-row justify-between gap-3 text-sm">
           <a 
-            className='p-2 bg-blue-700 rounded-sm font-bold hover:bg-blue-800 w-full sm:w-auto text-center' 
-            href="" 
+            className='p-2 px-7 bg-blue-800 rounded-sm font-bold hover:bg-blue-800 w-full sm:w-auto text-center' 
+            href="mailto:askgeeksrahul@gmail.com" 
+            target="_blank"
+          >
+            Contact Me
+          </a>
+          <a 
+            className='p-2 px-7 border-2 border-gray-300 hover: rounded-sm font-bold  w-full sm:w-auto text-center' 
+            href="/public/resumeRahul.pdf"  
             target="_blank"
           >
             Download CV
           </a>
-          <a 
-            className='p-2 bg-blue-700 rounded-sm font-bold hover:bg-blue-800 w-full sm:w-auto text-center' 
-            href="mailto:askgeeksrahul@gmail.com" 
-            target="_blank"
-          >
-            Hire Me
-          </a>
         </div>
       </div>
     </div>
-  </div> 
   )
 }
 

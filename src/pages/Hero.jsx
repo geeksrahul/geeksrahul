@@ -12,7 +12,7 @@ const MyComponent = () => {
 
   }, []);
   return (
-    <div className="bg-gradient-to-b from-gray-800 to-gray-900 h-screen flex justify-center items-center flex-col gap-7">
+    <div className="h-screen flex justify-center items-center flex-col gap-7 bg-gray-800">
       {/* Animated HeroImage */}
       <div
         className={`transition-transform duration-1000 ease-out ${
@@ -24,9 +24,9 @@ const MyComponent = () => {
 
       {/* Animated Link */}
       <Link
-        className={`text-xl font-semibold bg-gray-600 opacity-80 text-cyan-400 p-2 rounded-sm px-4 flex items-center justify-center gap-2 transition-transform duration-1000 ease-out ${
+        className={`bg-blue-700  text-xl font-semibold bg-y-800 opacity-80 text-white p-2 rounded-md px-4 flex items-center justify-center gap-2 transition-transform duration-1000 ease-out ${
           isMounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-        }`}
+        } dark:bg-gray-800`}
         to="/home"
       >
         cd geeksrahul

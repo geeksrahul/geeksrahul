@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-950">
       <Menubar />
-      <div className="ml-24 pt-7 text-white  bg-gray-950">
+      <div className="ml-16  text-white  bg-gray-950">
         <Outlet />
       </div>
     </div>

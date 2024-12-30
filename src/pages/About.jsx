@@ -38,7 +38,7 @@ function FAQ({ question, answer }) {
 function About() {
   return (
     <div className='min-h-[100%] '>
-      <PageHeading text="About" alt="Readme" />
+      {/* <PageHeading text="About" alt="Readme" /> */}
       <div className="min-h-screen flex justify-center items-center  bg-gray-950">
         <div className='w-3/4 flex justify-center items-start flex-col gap-2 pr-5'>
         <p className='text-2xl'> Here are the most common faq about me </p>

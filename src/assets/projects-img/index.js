@@ -1,3 +1,3 @@
 import expensify from "./expensify.png"
-
-export {expensify}
+import keycrypt from './keycrypt.png'
+export {expensify, keycrypt}

@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-li{
-    transition: all ease 0.3s;
-}
-NavLink {
+*{
+    transition: all ease 0.1s;
 }

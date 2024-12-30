@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Project(
+function ProjectCard(
     {
         project
     }
 ) {
   return (
     
-    <div className="rounded-lg bg-gray-800 p-4 flex flex-col w-full sm:w-[45%] lg:w-[30%] gap-3 opacity-90 hover:opacity-100">
+    <div className="w-[80%] rounded-lg bg-gray-800 p-4 flex flex-col sm:w-[45%] lg:w-[30%] gap-3 opacity-90 hover:opacity-100 hover:scale-105">
         <img
         src={project.image}
         alt="image not found"
@@ -31,4 +31,4 @@ function Project(
   )
 }
 
-export default Project
+export default ProjectCard

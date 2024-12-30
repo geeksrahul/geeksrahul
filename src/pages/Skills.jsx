@@ -1,13 +1,13 @@
 import React, { useState,useEffect } from 'react'
 import { PageHeading, SkillList } from '../components'
-import { frontend, backend, databases, tools, programming} from './skill_list';
-
+import { useSkills } from '../hooks';
 function Skills() {
+  const {frontend, backend, databases, tools, programming} = useSkills();
   useEffect(()=>{
       document.title = "Skills | Geeksrahul";
-    },[])
+  },[])
   return (
-    <div className='text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl'>
+    <div className='text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl py-7 px-10'>
         <PageHeading text="Skills"/>
         <div className="flex flex-col gap-3 h-full pt-5">
           <p className='text-gray-100 text-lg'>
