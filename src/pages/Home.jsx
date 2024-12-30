@@ -28,7 +28,7 @@ function Home() {
           </a>
           <a 
             className='p-2 px-7 border-2 border-gray-300 hover: rounded-sm font-bold  w-full sm:w-auto text-center' 
-            href="/public/resumeRahul.pdf"  
+            href="/resumeRahul.pdf"  
             target="_blank"
           >
             Download CV
