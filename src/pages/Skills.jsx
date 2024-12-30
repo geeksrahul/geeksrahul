@@ -7,7 +7,7 @@ function Skills() {
       document.title = "Skills | Geeksrahul";
   },[])
   return (
-    <div className='text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl py-7 px-10'>
+    <div className='text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl py-7 px-7'>
         <PageHeading text="Skills"/>
         <div className="flex flex-col gap-3 h-full pt-5">
           <p className='text-gray-100 text-lg'>
