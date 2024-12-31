@@ -40,7 +40,7 @@ function About() {
     <div className='min-h-[100%]'>
       {/* <PageHeading text="About" alt="Readme" /> */}
       <div className="min-h-screen flex justify-center items-center bg-gray-950">
-        <div className='w-3/4 flex justify-center items-start flex-col gap-2 pr-5'>
+        <div className='w-3/4 md:2/4 flex justify-center items-start flex-col gap-2 pr-5 lg:w-2/4'>
         <p className='text-2xl'> Here are the most common faq about me </p>
           <FAQ 
             question="Introduction"

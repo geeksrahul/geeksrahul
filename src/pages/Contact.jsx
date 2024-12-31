@@ -8,9 +8,9 @@ function SocialAccount({
   url,
 }){
   return (
-    <a href={url} target='_blank' className='flex w-40 items-center gap-2 p-2 bg-gray-800 rounded-md hover:bg-gray-700'>
+    <a href={url} target='_blank' className='flex items-center p-1 gap-2 lg:p-2 rounded-md hover:bg-gray-800'>
       <img src={icon} alt="" className='w-[25px] bg-gray-200 p-0 rounded-md'/>
-      <span className='text-lg'> @{username} </span>
+      {/* <span className='text-lg'>  {username} </span> */}
     </a>
   );
 }
@@ -27,12 +27,12 @@ function Contact() {
     <p className='text-md lg:text-lg'>
     Whether you have a question, an opportunity, or just want to say hello, this is the place to connect. Feel free to reach out to me on any of the platforms listed below. I’m always open to conversations, opportunities, and collaborations. I’ll do my best to respond promptly!
     </p>
-    <div className='flex gap-5 flex-wrap'>
-      <SocialAccount icon={instagram} username="geeksrahul" url="https://github.com/geeksrahul" />
-      <SocialAccount icon={linkedin} username="geeksrahul" url="https://www.linkedin.com/in/geeksrahul/" />
-      <SocialAccount icon={github} username="geeksrahul" url="https://github.com/geeksrahul" />
-      <SocialAccount icon={youtube} username="geeksrahul" url="https://www.youtube.com/@geeksrahul" />
-      <SocialAccount icon={x} username="geeksrahul" url="https://x.com/geeksrahul" />
+    <div className='flex gap-3 lg:gap-5 flex-wrap justify-center items-center'>
+      <SocialAccount icon={instagram} username="" url="https://instagram.com/geeksrahul.log" />
+      <SocialAccount icon={linkedin} username="" url="https://www.linkedin.com/in/geeksrahul/" />
+      <SocialAccount icon={github} username="" url="https://github.com/geeksrahul" />
+      <SocialAccount icon={youtube} username="" url="https://www.youtube.com/@geeksrahul" />
+      <SocialAccount icon={x} username="" url="https://x.com/geeksrahul" />
     </div>
   </div>
 </div>

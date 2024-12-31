@@ -12,7 +12,7 @@ const MyComponent = () => {
 
   }, []);
   return (
-    <div className="h-screen flex justify-center items-center flex-col gap-7 bg-gray-800">
+    <div className="h-screen flex justify-center items-center flex-col gap-7 bg-gray-950">
       {/* Animated HeroImage */}
       <div
         className={`transition-transform duration-1000 ease-out ${
