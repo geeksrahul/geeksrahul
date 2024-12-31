@@ -22,7 +22,7 @@ function Contact() {
 
   return (
 <div className="min-h-[100vh] flex justify-center items-center py-7 p-7 lg:pl-10">
-  <div className="flex justify-center flex-col gap-5 pr-5 ">
+  <div className="flex justify-center flex-col gap-5 pr-5 lg:w-1/2">
     <h2 className='text-2xl font-medium lg:text-3xl'>Have a question or want to collaborate ? Let’s <span className='text-yellow-300'> connect ! </span> </h2>
     <p className='text-md lg:text-lg'>
     Whether you have a question, an opportunity, or just want to say hello, this is the place to connect. Feel free to reach out to me on any of the platforms listed below. I’m always open to conversations, opportunities, and collaborations. I’ll do my best to respond promptly!
