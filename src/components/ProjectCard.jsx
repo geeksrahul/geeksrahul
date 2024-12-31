@@ -7,7 +7,7 @@ function ProjectCard(
 ) {
   return (
     
-    <div className="w-[80%] rounded-lg bg-gray-800 p-4 flex flex-col sm:w-[45%] lg:w-[30%] gap-3 opacity-90 hover:opacity-100 hover:scale-105">
+    <div className="w-[90%] rounded-lg bg-gray-800 p-4 flex flex-col sm:w-[35%] lg:w-[20%] gap-3 opacity-90 hover:opacity-100 hover:scale-105">
         <img
         src={project.image}
         alt="image not found"
